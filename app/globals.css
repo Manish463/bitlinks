@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --font-poppins: 'Poppins', cursive;
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
