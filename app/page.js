@@ -13,7 +13,7 @@ export default function Home() {
           </p>
           <div className='flex gap-8 py-3 text-white'>
             <button className='px-4 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='/shorten'>Try Now</Link></button>
-            <button className='px-4 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='/github'>GitHub</Link></button>
+            <button className='px-4 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='/https://github.com/Manish463/bitlinks'>GitHub</Link></button>
           </div>
         </div>
         <div className="relative">

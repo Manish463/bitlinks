@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link href='/contact'><li className={`px-4 py-2 rounded-lg hover:bg-purple-800 ${pathname == '/contact' ? "bg-purple-800" : ""}`}>Contact Us</li></Link>
           <li className='flex gap-6'>
             <button className='px-3 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='/shorten'>Try Now</Link></button>
-            <button className='px-3 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='/github'>GitHub</Link></button>
+            <button className='px-3 py-2 rounded-md shadow-md font-bold bg-purple-500 hover:bg-purple-600'><Link href='https://github.com/Manish463/bitlinks'>GitHub</Link></button>
           </li>
         </ul>
         <div className='block md:hidden' onClick={() => setShowsidebar(true)}><img className='w-8 invert' src="/bar.svg" alt="Menu" /></div>

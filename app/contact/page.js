@@ -35,7 +35,6 @@ const Contact = () => {
       </form>
 
       <div className="mt-8 text-gray-700">
-        <p>Email: <a href="mailto:manish@example.com" className="text-purple-700 underline">manish@example.com</a></p>
         <p>
           Github:{" "}
           <a href="https://github.com/Manish463" target='_blank' className="text-purple-700 underline">
